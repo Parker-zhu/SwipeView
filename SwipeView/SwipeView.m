@@ -1003,7 +1003,7 @@
 
     //layout views
     [self setNeedsLayout];
-    
+    [self layoutIfNeeded];
     //fix scroll offset
     if (_numberOfItems > 0 && _scrollOffset < 0.0f)
     {
